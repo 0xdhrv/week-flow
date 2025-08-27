@@ -18,3 +18,5 @@ jobs:
       - run: pnpm typecheck || true
       - run: pnpm test -- --ci --reporter=dot || true
       - run: pnpm build
+      - name: Run Qlty
+        uses: qltysh/qlty-action@v1
