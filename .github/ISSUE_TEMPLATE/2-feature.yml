@@ -1,0 +1,20 @@
+name: Feature request
+description: Suggest an idea
+title: "[feat]: "
+labels: ["type:feature"]
+body:
+  - type: textarea
+    id: problem
+    attributes: { label: Problem to solve, placeholder: "What’s the job-to-be-done?" }
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes: { label: Proposed solution, placeholder: "Sketch API/UI/UX" }
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      options:
+        - label: Affects data model
+        - label: Requires migration
+        - label: Visible UI change

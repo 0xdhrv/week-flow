@@ -1,0 +1,25 @@
+name: Bug report
+description: File a bug
+title: "[bug]: "
+labels: ["type:bug","triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for reporting! Please fill out the fields below."
+  - type: input
+    id: version
+    attributes: { label: App version, placeholder: "e.g., v0.1.0 or commit SHA" }
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes: { label: Steps to reproduce, placeholder: "1) ... 2) ... 3) ..." }
+    validations: { required: true }
+  - type: textarea
+    id: expected
+    attributes: { label: Expected, placeholder: "What should have happened?" }
+  - type: textarea
+    id: actual
+    attributes: { label: Actual, placeholder: "What happened instead?" }
+  - type: textarea
+    id: env
+    attributes: { label: Environment, placeholder: "OS/Browser/Device" }
