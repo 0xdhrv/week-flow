@@ -166,7 +166,7 @@ Ultracite enforces strict type safety, accessibility standards, and consistent c
 - Make sure the `preconnect` attribute is used when using Google Fonts.
 - Use `Array#{indexOf,lastIndexOf}()` instead of `Array#{findIndex,findLastIndex}()` when looking for the index of an item.
 - Make sure iterable callbacks return consistent values.
-- Use `with { type: "json" }` for JSON module imports.
+- Use `with { type: "json" }` for JSON module imports (requires Node.js v20+ and TypeScript 5.3+). Static imports: `import data from './data.json' with { type: 'json' }`. Dynamic imports: `import('./data.json', { with: { type: 'json' } })`. Next.js 14/15 (SWC-based) requires enabling SWC's `importAttributes` parser flag or using a Babel plugin to accept import-attributes.
 - Use numeric separators in numeric literals.
 - Use object spread instead of `Object.assign()` when constructing new objects.
 - Always use the radix argument when using `parseInt()`.
@@ -189,11 +189,8 @@ Ultracite enforces strict type safety, accessibility standards, and consistent c
 - Don't use user-defined types.
 - Use `as const` instead of literal types and type annotations.
 - Use either `T[]` or `Array<T>` consistently.
-- Initialize each enum member value explicitly.
 - Use `export type` for types.
 - Use `import type` for types.
-- Make sure all enum members are literal values.
-- Don't use TypeScript const enum.
 - Don't declare empty interfaces.
 - Don't let variables evolve into any type through reassignments.
 - Don't use the any type.
@@ -201,7 +198,6 @@ Ultracite enforces strict type safety, accessibility standards, and consistent c
 - Don't use implicit any type on variable declarations.
 - Don't merge interfaces and classes unsafely.
 - Don't use overload signatures that aren't next to each other.
-- Use the namespace keyword instead of the module keyword to declare TypeScript namespaces.
 
 ### Style and Consistency
 - Don't use global `eval()`.

@@ -2,6 +2,9 @@
   "name": "week-flow",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.18.0"
+  },
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
@@ -35,7 +38,11 @@
     "ultracite": "^5.2.4"
   },
   "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": [
+    "*.{js,jsx,ts,tsx}": [
+      "npx ultracite format",
+      "npx ultracite lint"
+    ],
+    "*.{json,md}": [
       "npx ultracite format"
     ]
   }
