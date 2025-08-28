@@ -1,3 +1,4 @@
+/** biome-ignore-all lint/suspicious/noUnknownAtRules: tailwindcss uses custom at directives */
 @import "tailwindcss";
 
 :root {
