@@ -12,6 +12,14 @@
   </p>
 </div>
 
+<div align="center">
+
+  [![Code Coverage](https://qlty.sh/gh/0xdhrv/projects/week-flow/coverage.svg)](https://qlty.sh/gh/0xdhrv/projects/week-flow)
+  [![Maintainability](https://qlty.sh/gh/0xdhrv/projects/week-flow/maintainability.svg)](https://qlty.sh/gh/0xdhrv/projects/week-flow)
+  ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xdhrv%2Fuptime%2Frefs%2Fheads%2Fmaster%2Fapi%2Fweek-flow%2Fuptime.json)
+
+</div>
+
 ## About The Project
 
 A paper-like weekly grid that works offline, syncs optionally, and stays out of your way.
