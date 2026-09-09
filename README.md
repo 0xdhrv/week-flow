@@ -14,6 +14,10 @@
 
 <div align="center">
 
+  <a href="https://github.com/0xdhrv/week-flow/stargazers"><img alt="GitHub stars" src="https://shieldcn.dev/github/stars/0xdhrv/week-flow.svg?variant=secondary" /></a>
+  <a href="https://github.com/0xdhrv/week-flow/commits"><img alt="Last commit" src="https://shieldcn.dev/github/commits/0xdhrv/week-flow.svg?variant=secondary" /></a>
+  <a href="https://github.com/0xdhrv/week-flow/actions"><img alt="CI" src="https://shieldcn.dev/github/ci/0xdhrv/week-flow.svg?variant=secondary" /></a>
+
   [![Code Coverage](https://qlty.sh/gh/0xdhrv/projects/week-flow/coverage.svg)](https://qlty.sh/gh/0xdhrv/projects/week-flow)
   [![Maintainability](https://qlty.sh/gh/0xdhrv/projects/week-flow/maintainability.svg)](https://qlty.sh/gh/0xdhrv/projects/week-flow)
   ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2F0xdhrv%2Fuptime%2Frefs%2Fheads%2Fmaster%2Fapi%2Fweek-flow%2Fuptime.json)
